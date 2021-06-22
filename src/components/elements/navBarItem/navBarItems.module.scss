@@ -1,0 +1,49 @@
+.itemContainer {
+  padding: 15px;
+  width: 225px;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+  .item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    span {
+      position: absolute;
+      top: 10px;
+      left: 15px;
+      font-weight: bold;
+    }
+  }
+  .item1 {
+    background-color: red;
+  }
+  .item2 {
+    background-color: yellow;
+  }
+  .item3 {
+    background-color: orange;
+  }
+  .item4 {
+    background-color: green;
+  }
+  .content {
+    width: 80px;
+    margin: auto;
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      color: white;
+    }
+  }
+}
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: black;
+}

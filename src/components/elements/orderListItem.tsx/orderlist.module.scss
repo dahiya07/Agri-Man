@@ -1,0 +1,59 @@
+.container {
+  width: 80%;
+  margin: 25px 10px;
+  .flex {
+    display: flex;
+    color: white;
+    text-align: center;
+    background-color: black;
+  }
+  .list {
+    border-right: 2px solid white;
+    padding: 12px 0px;
+  }
+  .id {
+    width: 10%;
+  }
+  .category {
+    width: 20%;
+  }
+  .image {
+    width: 20%;
+    img{
+      width: 40px;
+      height: 50px;
+    }
+  }
+  .description {
+    width: 30%;
+  }
+  .quantity {
+    width: 10%;
+  }
+  .redirect{
+    width: 10%;
+    background-color: white;
+    cursor: pointer;
+    img{
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+
+  .flex2:nth-child(odd) {
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-right: 1.5px solid white;
+    margin: 1px;
+  }
+  .flex2:nth-child(even) {
+    display: flex;
+    font-weight: 500;
+    margin: 1px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-right: 1.5px solid white;
+  }
+}

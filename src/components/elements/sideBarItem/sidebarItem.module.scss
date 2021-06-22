@@ -1,0 +1,29 @@
+.itemContainer {
+  border-bottom: 1px solid white;
+  font-weight: bold;
+  padding: 15px 0;
+  position: relative;
+  a {
+    text-decoration: none;
+  }
+  h6 {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .active {
+    text-decoration: none;
+    h6 {
+      color: rgb(133, 226, 133);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 5px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: yellow;
+    }
+  }
+}

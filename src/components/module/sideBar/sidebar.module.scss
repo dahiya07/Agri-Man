@@ -1,0 +1,23 @@
+.sideContainer {
+  width: 250px;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  .heading {
+    border-bottom: 1px solid white;
+    padding: 15px 0;
+    h2 {
+      font-size: 1.75rem;
+    }
+  }
+  .bottomHeading {
+    border-top: 1px solid white;
+    padding: 10px 20px;
+  }
+}
