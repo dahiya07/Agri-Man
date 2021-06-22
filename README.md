@@ -1,6 +1,7 @@
 # AgriMan
 
 This project is a CMS implementation in reactJS with various navigation like tab and onPage navigation.This project also uses csv-react to download csv file from JSON data.
+No CSS framework used.
 
 ## Working Model of the app
 ![demp](agri.gif)
